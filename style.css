@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainbody{
+    /* background-image: url(images/clg_girl.avif); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 10vh;
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_img{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 35px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    border-bottom: 3px solid #0052A3;    
+    color: #062b4f;
+    font-weight: bold;
+}
+.sec1{
+    width: 90%;
+
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 .text h1{
+    font-size: 50px;
+    margin-top: 20%;
+}
+.sec1 .text p{
+    font-size: 25px;
+}
+.sec1 .text span{
+    color: #0052A3;
+}
+.sec1 .icons{
+    margin-top: 10%;
+}
+.sec1 .icons a i{
+    font-size: 25px;
+    color: white;
+    border: 1px solid #0052A3;
+    border-radius: 30px;
+    background-color: #0052A3;
+    padding: 7px 9px;
+    margin-right: 10px;
+    box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.btn{
+    border: 1px solid #0052A3;
+    border-radius: 15px;
+    box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #0052A3;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-top: 4%;
+}
+/* .sec1 .img{
+    height: 320px;
+    width: 320px;
+    border: 1px solid #0052A3;
+    border-radius: 50%;
+    background-color: #0052A3;
+    margin-top: 10%;
+    transform: rotate(3);
+} */
+.sec1 .img img{
+    height: 400px;
+    width: 400px;
+    margin-top: 15%;
+    border-radius: 50%;
+    box-shadow: 2px 6px 15px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sec1 .img img:hover{
+        transform: scaleX(-1);
+        transition-delay: 0.3s;
+}
+.about{
+    width: 90%;
+    height: 95vh;
+    margin:auto;
+    box-shadow: 2px 6px 15px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(135deg, hsla(201, 75%, 40%, 0.529),hsl(0, 0%, 0%,0.65)),url(images/clg_girl.avif);
+    /* background-image: url(); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.about h1{
+    padding-top: 2%;
+    font-size: 50px;
+    text-align: center;
+}
+.abouttext{
+    width: 600px;
+    padding: 2%;
+    background-color: transparent;
+    box-shadow: 2px 16px 15px 0 rgba(0, 0, 0, 0.5), 2px 16px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.about h2{
+    margin-top: 10%;
+    font-size: 30px;
+}
+.about p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c1c8d0;
+}
+.about span{
+    color: #060a0f;
+    font-weight: bold;
+}
+.skills{
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    box-shadow: 2px 6px 15px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}   
+.skills h1{
+    font-size: 50px;
+    /* margin-top: 10%; */
+    text-align: center;
+    padding-top: 2%;
+    color: #062b4f;
+}
+.skills .img1{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+}
+.skills img{
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    padding: 30px;
+    box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.edu{
+    width: 90%;
+    height: 93vh;
+    margin: auto;
+    /* background-color: rgb(229, 242, 188); */
+    /* background-image: url(images/clg_girl.avif); */
+    background-color: #b9cfe6;
+    box-shadow: 2px 6px 15px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.edu h1{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 50px;
+}
+.clg{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3%;
+    padding: 5px;
+    margin-top: 5%;
+}
+.clg img{
+    height: 160px;
+    width: 180px;
+}
+.clg .text{
+    margin-left: 5%;
+}
+.projects{
+    width: 90%;
+    margin: auto;
+    box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projects h1{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 50px;
+    color: #062b4f;
+}
+.prj{
+    display: flex;
+    justify-content: space-around;
+    margin:0 2%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.project{
+    height: 550px;
+    width: 400px;
+    box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+.project img{
+    height: 200px;
+    width: 400px;
+}
+.project h2{
+    text-align: center;
+}
+.project p{
+    margin-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    height: 50vh;
+    background-color: #062b4f;
+    margin-top: 4%;
+   
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 3%;
+}
+.footer h1{
+    font-size: 30px;
+}
+.footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.footer .s1{
+    width: 300px;
+}
+.footer .s2 ul li {
+    list-style: disc;
+}
+.footer .s2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer .s3{
+    width: 250px;
+}
+.footer .s3 i{
+    color: black;
+    margin-bottom: 5%;
+}
+.footer .s3 span{
+    margin-left: 2%;
+    cursor: pointer;
+}
